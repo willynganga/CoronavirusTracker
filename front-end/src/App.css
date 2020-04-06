@@ -1,0 +1,59 @@
+:root {
+    --mainWhite: #ffffff;
+    --mainBlack: #000000;
+    --overlay:rgba(0, 0, 0, 0.5);
+    --coronaBlue: #03e8fc;
+    --coronaOrange: #fc8003;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    letter-spacing: .12rem;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 2.0rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.banner {
+    min-height: 60vh;
+    background: url(./images/corona2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-banner {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--mainWhite);
+    padding: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.under-line {
+    width: 10rem;
+    height: 5px;
+    background: var(--coronaBlue);
+    margin: 1.7rem auto;
+}
+
+.info {
+    text-align: center;
+    padding: 1.5em;
+    height: 25vh;
+    background: #d3e7ee;
+}
