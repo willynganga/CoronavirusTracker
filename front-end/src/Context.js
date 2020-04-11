@@ -8,7 +8,7 @@ class LocationStatProvider extends Component {
     }
 
     componentDidMount() {
-        fetch("http://localhost:8080/api/v1/corona-virus-data").then(
+        fetch("https://floating-lowlands-24943.herokuapp.com/api/v1/corona-virus-data").then(
             result => {                
                 return result.json()
             }
